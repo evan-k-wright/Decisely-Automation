@@ -1,5 +1,7 @@
+const homePageUI = require('../pageObject/homePageUI')
+
 const homePageUI = (browser) => {
-    let homePageUI = broswer.page.homePageUI
+    let homePageUI = browser.page.homePageUI()
     homePageUI.navigate()
         homePageUI
             .waitForElementVisible('@logo', 5000)
@@ -8,5 +10,4 @@ const homePageUI = (browser) => {
 
 module.exports = {
     homePageUI : homePageUI,
-    
 }
