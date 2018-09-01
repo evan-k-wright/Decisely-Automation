@@ -1,5 +1,5 @@
 module.exports = {
-    url: 'https://www.decisely.com/',
+    url: 'https://www.decisely.com',
     elements: {
         logo: {
             selector: '(//img[@alt="Decisely Logo"])[1]',
@@ -10,6 +10,6 @@ module.exports = {
             selector: '(//a[@class="nav-link"])[1]',
             locateStrategy: 'xpath'
         },
-        
+
     }
 }
