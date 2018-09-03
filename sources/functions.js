@@ -3,10 +3,10 @@ const selectors = require('./selectors')
 
 const uiTest = (browser) => {
     browser
-        .waitForElementVisible(selectors.logo, 5000)
+        .waitForElementPresent(selectors.logo, 10000)
 }
 
 module.exports = {
     uiTest: uiTest,
-    
+
 }
