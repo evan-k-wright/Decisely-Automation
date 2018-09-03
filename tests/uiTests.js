@@ -6,12 +6,12 @@ module.exports = {
     },
 
     after: browser => {
-        browser
+        browser.end()
     },
 
     'uiTest': browser => {
         functions.uiTest(browser)
     },
-    
+
 
 }

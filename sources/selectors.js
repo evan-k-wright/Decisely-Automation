@@ -1,4 +1,4 @@
 module.exports = {
-    logo: '(//img[@alt="Decisely Logo"])[1]',
+    logo: '(//img[@class="header-logo"])[1]',
     smallBusinesses: '(//a[@class="nav-link"])[1]',
 }

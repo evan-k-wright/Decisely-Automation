@@ -3,7 +3,9 @@ const selectors = require('./selectors')
 
 const uiTest = (browser) => {
     browser
-        .waitForElementPresent(selectors.logo, 10000)
+        .useXpath()
+        .waitForElementVisible(selectors.logo, 5000)
+        .waitForElementVisible(selectors.smallBusinesses, 5000)
 }
 
 module.exports = {
