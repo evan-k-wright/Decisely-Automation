@@ -23,10 +23,10 @@ const uiTest = (browser) => {
         .useCss()
         .waitForElementVisible(selectors.phoneImg, 5000)
         .waitForElementVisible(selectors.viewResources, 5000)
-        .expect.element(selectors.viewResources).text.to.equal('View All Resources')
+        .waitForElementVisible(selectors.cool, 5000)
+        .expect.element(selectors.cool).text.to.equal('Cool, us too!')
     browser
         
-
 }
 
 module.exports = {

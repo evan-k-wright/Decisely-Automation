@@ -11,9 +11,10 @@ module.exports = {
     smallBusinesses: '(//a[@class="nav-link"])[1]',
 
     //Css
+    cool: 'span[class="home-career-text"]',
     getStarted: 'a[id="openbtn"]',
     logIn: 'li[class="nav-item telephone"]',
     phoneImg: 'img[src="https://www.decisely.com/wp-content/themes/decisely/img/phone.png"]',
     viewResources: 'a[class="teal-background btn',
-    
+
 }
