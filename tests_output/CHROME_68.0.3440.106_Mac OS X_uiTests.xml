@@ -5,9 +5,27 @@
 
   <testsuite name="uiTests"
     errors="0" failures="0" hostname="" id="" package="uiTests" skipped="0"
-    tests="1" time="4.536" timestamp="Mon, 03 Sep 2018 23:55:57 GMT">
+    tests="1" time="5.820" timestamp="Tue, 04 Sep 2018 00:21:46 GMT">
   
-    <testcase name="uiTest" classname="uiTests" time="4.536" assertions="2">
+    <testcase name="uiTest" classname="uiTests" time="5.820" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 
     
 
