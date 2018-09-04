@@ -13,4 +13,7 @@ module.exports = {
     //Css
     getStarted: 'a[id="openbtn"]',
     logIn: 'li[class="nav-item telephone"]',
+    phoneImg: 'img[src="https://www.decisely.com/wp-content/themes/decisely/img/phone.png"]',
+    viewResources: 'a[class="teal-background btn',
+    
 }

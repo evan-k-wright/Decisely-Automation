@@ -20,7 +20,13 @@ const uiTest = (browser) => {
     browser
         .useXpath()
         .waitForElementVisible(selectors.learnMore, 5000)
+        .useCss()
+        .waitForElementVisible(selectors.phoneImg, 5000)
+        .waitForElementVisible(selectors.viewResources, 5000)
+        .expect.element(selectors.viewResources).text.to.equal('View All Resources')
+    browser
         
+
 }
 
 module.exports = {

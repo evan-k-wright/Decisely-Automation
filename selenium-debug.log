@@ -1,12 +1,12 @@
-18:25:36.734 INFO [GridLauncherV3.launch] - Selenium build info: version: '3.11.0', revision: 'e59cfb3'
-18:25:36.742 INFO [GridLauncherV3$1.launch] - Launching a standalone Selenium Server on port 4445
-2018-09-03 18:25:37.224:INFO::main: Logging initialized @950ms to org.seleniumhq.jetty9.util.log.StdErrLog
-18:25:37.577 INFO [SeleniumServer.boot] - Welcome to Selenium for Workgroups....
-18:25:37.578 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4445
-18:25:37.988 INFO [ActiveSessionFactory.apply] - Capabilities are: Capabilities {acceptSslCerts: true, browserName: chrome, javascriptEnabled: true, name: Ui Tests}
-18:25:37.990 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 2.36.540469 (1881fd7f8641508feb5166b7cae561d87723cfa8) on port 43339
+18:30:40.089 INFO [GridLauncherV3.launch] - Selenium build info: version: '3.11.0', revision: 'e59cfb3'
+18:30:40.092 INFO [GridLauncherV3$1.launch] - Launching a standalone Selenium Server on port 4445
+2018-09-03 18:30:40.282:INFO::main: Logging initialized @534ms to org.seleniumhq.jetty9.util.log.StdErrLog
+18:30:40.464 INFO [SeleniumServer.boot] - Welcome to Selenium for Workgroups....
+18:30:40.465 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4445
+18:30:40.789 INFO [ActiveSessionFactory.apply] - Capabilities are: Capabilities {acceptSslCerts: true, browserName: chrome, javascriptEnabled: true, name: Ui Tests}
+18:30:40.790 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 2.36.540469 (1881fd7f8641508feb5166b7cae561d87723cfa8) on port 6168
 Only local connections are allowed.
-18:25:39.263 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
-18:25:40.061 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session d818502e6bb994675e5a404963d32bed (org.openqa.selenium.chrome.ChromeDriverService)
-18:25:42.865 INFO [ActiveSessions$1.onStop] - Removing session d818502e6bb994675e5a404963d32bed (org.openqa.selenium.chrome.ChromeDriverService)
+18:30:42.018 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+18:30:42.406 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session c55784f45fd88f01e94cbf26657e9ab6 (org.openqa.selenium.chrome.ChromeDriverService)
+18:30:44.966 INFO [ActiveSessions$1.onStop] - Removing session c55784f45fd88f01e94cbf26657e9ab6 (org.openqa.selenium.chrome.ChromeDriverService)
